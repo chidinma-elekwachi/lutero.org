@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <p>Crating my portfolio from scratch</p>
+      <p>Creating my portfolio from scratch</p>
     </div>
   );
 }
