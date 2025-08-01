@@ -145,6 +145,9 @@ body {
   .nav-link.active {
   display: none;
 }
+ .navbar-link{
+  display: none;
+ }
 }
 
 
