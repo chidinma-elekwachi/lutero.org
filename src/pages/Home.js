@@ -14,12 +14,16 @@ function Home() {
 
       <header className="hero">
         <h1>Lutero Chat. Connect Freely.</h1>
-        <p>The secure, private chat app with calling, video, and communities.</p>
+        <p>The secure, private chat app with calling, video, and communities.
+        </p>
+        
         <div className="store-links">
           <a href="/"><img src={appStore} alt="App Store" /></a>
           <a href="/"><img src={googlePlay} alt="Google Play" /></a>
-        </div>
+        </div> <br></br>
+        <p><em> "Experience a secure, and modern messaging platform that puts your privacy first. Connect with friends, family, or your community through instant messaging, crystal-clear audio calls, video calls, and exclusive member groups — all in one powerful app."</em></p>
         <img className="mockup" src={handMockup} alt="App Screenshot" />
+
       </header>
 
       <section className="core-features">

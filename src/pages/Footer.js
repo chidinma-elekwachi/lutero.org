@@ -15,10 +15,10 @@ function Footer() {
         <h2>Lutero</h2>
         </div>
 
-        <p><FaMailBulk size={24} /><a href="mailto:support@lutero.org"> Support</a>
-        </p>
-        <p><FaTwitter size={24} /><a href="https://twitter.com/luteroapp" target="_blank" rel="noopener noreferrer"> X/ Twitter</a>
-        </p>
+        <a href="mailto:support@lutero.org"><FaMailBulk size={24} /> Support</a>
+        
+        <a href="https://twitter.com/luteroapp" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /> X/ Twitter</a>
+    
       </div>
 
       <div className="footer-row">
