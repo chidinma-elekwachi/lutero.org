@@ -1,0 +1,406 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  color: #0f172a;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px;
+  margin-top: 25px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: bold;
+}
+.navbar-link{
+    width: 50px;
+    height: auto;
+}
+.nav-links img {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+.nav-links a:hover{
+  color: rgb(223, 73, 19);
+  text-decoration: underline;
+}
+.nav-link.active {
+  color: rgb(223, 73, 19); 
+  text-decoration: underline;
+}
+.nav-links img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #0f172a;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.store-links img {
+  width: 150px;
+  margin: 10px;
+}
+
+.mockup, .premium-icon {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.features, .premium-highlight {
+  padding: 40px 20px;
+  border-top: 1px solid #eee;
+  background: #f9f9f9;
+
+}
+
+.features ul, .premium-highlight ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.features li, .premium-highlight li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.premium-highlight {
+  background: #f0f8ff;
+  color: #0f172a;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0f172a;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: rgb(223, 73, 19);
+  color: black;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .store-links img {
+    width: 120px;
+  }
+  .nav-links a {
+    margin: 0px 10px;
+    margin-left: 15px;
+  }
+  .nav-links img{
+    display: none;
+  }
+
+  .nav-link.active {
+  display: none;
+}
+}
+
+
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+.last-updated {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.term-section {
+  margin-bottom: 2rem;
+}
+
+.term-section h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.term-number {
+  display: inline-block;
+  min-width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.term-section ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.term-section li {
+  margin-bottom: 0.5rem;
+}
+
+.privacy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.last-updated {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.policy-section {
+  margin-bottom: 2.5rem;
+}
+
+.policy-section h2 {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.policy-number {
+  display: inline-block;
+  min-width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.policy-section h3 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0.5rem 0;
+  color: #444;
+}
+
+.policy-section ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.policy-section li {
+  margin-bottom: 0.4rem;
+}
+
+.policy-section ul ul {
+  margin-top: 0.3rem;
+  padding-left: 1.5rem;
+}
+
+.policy-section a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.premium-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  color: #222;
+  background-color: #fff;
+}
+
+.premium-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.premium-header h1 {
+  font-size: 2.5rem;
+  color: #151536;
+}
+
+.premium-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.premium-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.premium-benefits {
+  flex: 1;
+  min-width: 280px;
+}
+
+.premium-benefits h2 {
+  color: rgb(223, 73, 19);
+  margin-bottom: 1rem;
+}
+
+.premium-benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.premium-benefits li {
+  background: #f9f9f9;
+  border-left: 4px solid rgb(223, 73, 19);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.premium-image {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.premium-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.premium-pricing {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.premium-pricing h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  background-color: #fafafa;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(21, 21, 54, 0.2);
+}
+
+.price {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: rgb(223, 73, 19);
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .premium-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #141414;
+  line-height: 1.6;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: rgb(21, 21, 54);
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: rgb(223, 73, 19);
+  text-decoration: none;
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 0.5rem;
+  color: #0A66C2;
+}
