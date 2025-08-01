@@ -365,14 +365,6 @@ body {
     width: 90%;
   }
 }
-.contact-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #141414;
-  line-height: 1.6;
-}
 
 .logo {
   width: 60px;
@@ -397,10 +389,252 @@ a {
   text-decoration: none;
 }
 
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #0f172a;
+  line-height: 1.7;
+}
+
+.logo {
+  width: 60px;
+  margin-bottom: 1.5rem;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.section ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-info {
+  background: #f9f9f9;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #0f172a;
+  margin-bottom: 2rem;
+}
+
+.contact-info h2 {
+  margin-bottom: 0.5rem;
+}
+
+.developer-section {
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.dev-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.elexis-logo {
+  width: 60px;
+  height: auto;
+}
+
+.dev-contact {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
 .linkedin-link {
   display: inline-flex;
   align-items: center;
-  margin-top: 1rem;
   gap: 0.5rem;
+  margin-top: 0.8rem;
   color: #0A66C2;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.linkedin-link:hover {
+  text-decoration: underline;
+}
+
+.core-features {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.vision-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.logo-circle {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(21, 21, 54);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: border-color 0.3s ease;
+}
+
+.logo-circle img {
+  width: 60%;
+  height: auto;
+}
+
+.vision-text h2 {
+  font-size: 1.8rem;
+  color: rgb(21, 21, 54);
+  margin-bottom: 0.5rem;
+}
+
+.vision-text p {
+  max-width: 600px;
+  font-size: 1rem;
+  color: #333;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.features-list {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.features-list h2 {
+  font-size: 1.6rem;
+  color: rgb(223, 73, 19);
+  margin-bottom: 1rem;
+}
+
+.features-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.features-list li {
+  background: #fff;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #333;
+  border-left: 4px solid rgb(223, 73, 19);
+  transition: background 0.3s ease;
+}
+
+.features-list li:hover {
+  background: #f1f1f1;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+  .vision-block {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .vision-text {
+    max-width: 600px;
+  }
+
+  .features-list h2 {
+    font-size: 2rem;
+  }
+
+  .features-list li {
+    font-size: 1rem;
+  }
+
+}
+@media (max-width: 768px) {
+  .app-badges {
+  flex-direction: row;
+  gap: 10px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+}
+.footer {
+  background-color: #f7f7f7;
+  padding: 30px 20px;
+  margin-top: 30px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.footer-logo-container{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.store-badge {
+  height: 40px;
+  width: auto;
 }

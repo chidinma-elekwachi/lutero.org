@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import goPremiumIcon from '../assets/go-preiumluter.png';
+import Footer from './Footer';
 
 function Premium() {
   return (
@@ -55,6 +56,7 @@ function Premium() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

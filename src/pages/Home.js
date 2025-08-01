@@ -3,6 +3,7 @@ import './styles.css';
 import googlePlay from '../assets/google-play-store logo.png';
 import appStore from '../assets/app-store-logo.png';
 import handMockup from '../assets/chatscreen-iphonemockup.png';
+import Footer from './Footer';
 
 import { Link } from 'react-router-dom';
 
@@ -21,7 +22,20 @@ function Home() {
         <img className="mockup" src={handMockup} alt="App Screenshot" />
       </header>
 
-      <section className="features">
+      <section className="core-features">
+      <div className="vision-block">
+        <div className="logo-circle">
+          <img src='/lutero-icon.png' alt="App Logo" />
+        </div>
+        <div className="vision-text">
+          <h2>Our Vision</h2>
+          <p>
+            At Lutero, we’re redefining private communication by building a community-powered messaging app that puts security, freedom, and connection at the forefront. Our goal is to give people around the world—especially in underserved regions—the ability to chat, call, and build communities without limitations.
+          </p>
+        </div>
+      </div>
+
+      <div className="features-list">
         <h2>Core Features</h2>
         <ul>
           <li>✓ Private and secure messaging</li>
@@ -31,7 +45,8 @@ function Home() {
           <li>✓ Privacy-first design</li>
           <li>✓ Chat backups</li>
         </ul>
-      </section>
+      </div>
+    </section>
 
       <section className="premium-highlight">
         <h2>Upgrade to Premium</h2>
@@ -46,7 +61,11 @@ function Home() {
         </ul>
         <Link to="/premium" className="btn">View Premium Details</Link>
       </section>
+
+          <Footer />
+
     </div>
+
   );
 }
 

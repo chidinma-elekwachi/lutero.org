@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import Footer from './Footer';
 
 function Terms() {
   return (
@@ -148,6 +149,8 @@ function Terms() {
     <p>For data requests or concerns: <a href="mailto:support@lutero.org">support@lutero.org</a></p>
   </section>
 </div>
+
+    <Footer />
     
     </div>
   );
