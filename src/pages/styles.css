@@ -138,16 +138,7 @@ body {
     margin: 0px 10px;
     margin-left: 15px;
   }
-  .nav-links img{
-    display: none;
-  }
-
-  .nav-link.active {
-  display: none;
-}
- .navbar-link{
-  display: none;
- }
+  
 }
 
 
@@ -361,8 +352,6 @@ body {
   text-decoration: none;
 }
 
-
-/* Mobile responsiveness */
 @media (max-width: 768px) {
   .premium-content {
     flex-direction: column;
@@ -650,4 +639,43 @@ a {
 .store-badge {
   height: 40px;
   width: auto;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background: black;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    gap: 35px;
+    top: 60px;
+    right: 1rem;
+    background: whitesmoke;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+
+    .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 }
