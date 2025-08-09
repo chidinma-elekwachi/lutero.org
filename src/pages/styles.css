@@ -679,3 +679,49 @@ a {
     display: flex;
   }
 }
+
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main-title {
+  color: rgb(21, 21, 54);
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.last-updated {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.term-section, .policy-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-left: 5px solid rgb(223, 73, 19);
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.term-number, .policy-number {
+  color: rgb(223, 73, 19);
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+a {
+  color: rgb(223, 73, 19);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

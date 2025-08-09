@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 import googlePlay from '../assets/google-play-store logo.png';
 import appStore from '../assets/app-store-logo.png';
@@ -12,16 +13,37 @@ function Footer() {
       <div className="footer-row">
         <div className="footer-logo-container">
             <img src='/lutero-icon.png' alt="Logo" className="footer-logo" />
-        <h2>Lutero</h2>
+        {/* <h2>Lutero</h2> */}
         </div>
-
-        <a href="mailto:support@lutero.org"><FaMailBulk size={24} /> Support</a>
-        
-        <a href="https://twitter.com/luteroapp" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /> X/ Twitter</a>
+        <Link 
+          to="/"
+        >
+          Home
+        </Link>
+        <Link 
+          to="/premium"
+        >
+          Premium
+        </Link>
+        <Link 
+          to="/terms"
+        >
+          Terms
+        </Link>
+        <Link 
+          to="/contact"
+        >
+          Contact Us
+        </Link>
     
       </div>
 
       <div className="footer-row">
+
+        <a href="mailto:support@lutero.org"><FaMailBulk size={24} /> Contact Support</a>
+        
+        <a href="https://x.com/lutero999" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /> X (Twitter)</a>
+
         <p className="footer-text">Developer: <a href="mailto:developer@lutero.org">developer@lutero.org</a></p>
         <a
                   href="https://www.linkedin.com/company/elexistech/"
