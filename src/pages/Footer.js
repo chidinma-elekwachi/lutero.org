@@ -31,6 +31,11 @@ function Footer() {
           Terms
         </Link>
         <Link 
+          to="/privacy"
+        >
+          Privacy policy
+        </Link>
+        <Link 
           to="/contact"
         >
           Contact Us
