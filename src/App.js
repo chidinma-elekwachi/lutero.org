@@ -6,6 +6,7 @@ import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Privacy from "./pages/Privacy";
+import DataDeletion from "./pages/DataDeletion";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/data-deletion" element={<DataDeletion />} />
       </Routes>
     </Router>
   );
