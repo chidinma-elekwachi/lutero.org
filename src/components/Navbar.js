@@ -47,6 +47,13 @@ function Navbar() {
           Terms
         </NavLink>
         <NavLink 
+          to="/privacy"
+          onClick={closeMenu}
+          className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+        >
+          Privacy
+        </NavLink>
+        <NavLink 
           to="/contact"
           onClick={closeMenu}
           className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}

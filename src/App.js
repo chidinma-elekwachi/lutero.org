@@ -5,6 +5,7 @@ import Premium from "./pages/Premium";
 import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
+import Privacy from "./pages/Privacy";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/premium" element={<Premium />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
