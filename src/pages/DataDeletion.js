@@ -13,6 +13,19 @@ function DataDeletion() {
         </p>
       </header>
 
+     <section className="data-deletion-section">
+        <h2>How to Delete Your Data</h2>
+        <ol>
+          <li>Open the Lutero Chat app.</li>
+          <li>
+            To delete your message: go to <strong>chat bubble</strong> &gt; select it and choose <strong>Delete</strong>.
+          </li>
+          <li>
+            To delete a chat: go to chats, hold on the chat and select <strong> &gt; Delete</strong>.
+          </li>
+        </ol>
+      </section>
+
       <section className="data-deletion-section">
         <h2>What Data Can Be Deleted?</h2>
         <ul>
@@ -70,9 +83,8 @@ function DataDeletion() {
         </form>
       </section>
 
-      <footer>
+     
         <Footer />
-      </footer>
     </div>
   );
 }
