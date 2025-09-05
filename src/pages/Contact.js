@@ -13,7 +13,6 @@ function Contact() {
       </div>
 
       <h1 className="page-title">Who We Are</h1>
-<h1 className="page-title">Who We Are</h1>
 
       <section className="section">
         <h2> About the App</h2>
