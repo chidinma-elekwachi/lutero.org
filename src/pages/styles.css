@@ -242,8 +242,6 @@ body {
   padding: 2rem;
   max-width: 1200px;
   margin: auto;
-  color: #222;
-  background-color: #fff;
 }
 
 .premium-header {
@@ -344,7 +342,6 @@ body {
 }
 
 .btn a {
-  color: white;
   text-decoration: none;
 }
 
