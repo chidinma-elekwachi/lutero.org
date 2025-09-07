@@ -68,7 +68,7 @@ function Home() {
           <p className="premium-subtitle">Get more out of Lutero with our premium subscription:</p>
           <ul className="premium-features">
             <li><span className="checkmark">✓</span>Ad-free experience</li>
-            <li><span className="checkmark">✓</span>Create communities (256 members)</li>
+            <li><span className="checkmark">✓</span>Create larger communities</li>
             <li><span className="checkmark">✓</span>Unlimited call duration</li>
             <li><span className="checkmark">✓</span>Premium badge in profile</li>
             <li><span className="checkmark">✓</span>Priority customer support</li>

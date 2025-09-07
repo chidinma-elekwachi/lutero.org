@@ -226,10 +226,6 @@
   transition: background-color 0.3s ease;
 }
 
-.premium-btn:hover {
-  background-color: rgb(255, 140, 50);
-  text-decoration: none;
-}
 
 /* Shared Components */
 .section-header {
