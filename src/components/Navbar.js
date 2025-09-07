@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import googlePlay from '../assets/google-play-store logo.png';
 import appStore from '../assets/app-store-logo.png';
 import './Navbar.css';
+import '../pages/styles.css';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

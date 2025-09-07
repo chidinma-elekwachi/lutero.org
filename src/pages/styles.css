@@ -139,6 +139,8 @@ body {
 
 
 .terms-container {
+  background-color: rgb(21, 21, 54);
+  color: whitesmoke;
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
@@ -147,23 +149,29 @@ body {
 }
 
 .last-updated {
-  color: #666;
   font-style: italic;
   margin-bottom: 2rem;
 }
 
 .term-section {
+  background-color: rgb(18, 18, 51);
   margin-bottom: 2rem;
 }
 
 .term-section h2 {
   font-size: 1.4rem;
-  color: #333;
+  color: whitesmoke;
   margin-bottom: 1rem;
   display: flex;
   align-items: flex-start;
 }
 
+.term-section p{
+  color: whitesmoke;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
 .term-number {
   display: inline-block;
   min-width: 1.5rem;
@@ -185,22 +193,25 @@ body {
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  color: #333;
+    background-color: rgb(21, 21, 54);
+  color: whitesmoke;
 }
 
 .last-updated {
-  color: #666;
+  color: whitesmoke;
   font-style: italic;
   margin-bottom: 2rem;
 }
 
 .policy-section {
   margin-bottom: 2.5rem;
+  background-color: rgb(21, 21, 54);
+
 }
 
 .policy-section h2 {
   font-size: 1.4rem;
-  color: #222;
+  color: whitesmoke;
   margin-bottom: 1rem;
   display: flex;
   align-items: flex-start;
@@ -215,7 +226,7 @@ body {
 .policy-section h3 {
   font-size: 1.1rem;
   margin: 1rem 0 0.5rem 0;
-  color: #444;
+  color: whitesmoke;
 }
 
 .policy-section ul {
@@ -679,14 +690,12 @@ a {
 }
 
 .main-title {
-  color: rgb(21, 21, 54);
   font-size: 2rem;
   margin-bottom: 5px;
 }
 
 .last-updated {
   font-style: italic;
-  color: #777;
   margin-bottom: 20px;
 }
 
@@ -694,7 +703,6 @@ a {
   margin-bottom: 25px;
   padding: 15px;
   border-left: 5px solid rgb(223, 73, 19);
-  background: #f9f9f9;
   border-radius: 5px;
 }
 

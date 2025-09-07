@@ -9,7 +9,6 @@ function Terms() {
         <h1 className="main-title">Lutero Terms of Service</h1>
         <p className="last-updated">Last Updated: 1st February, 2025</p>
 
-        {/* 1. General Terms */}
         <section className="term-section">
           <h2><span className="term-number">1.</span> General Terms</h2>
           <p>
