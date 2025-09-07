@@ -161,9 +161,7 @@
 }
 
 @media (max-width: 480px) {
-  .navbar {
-    padding: 12px 15px;
-  }
+  
   
   .nav-logo span {
     display: none;
