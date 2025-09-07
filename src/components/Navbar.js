@@ -21,7 +21,7 @@ function Navbar() {
         <div className="nav-container">
           <a href="/" className="nav-logo">
             <img src='/lutero-icon.png' alt="Lutero Logo" />
-            <span>Lutero</span>
+            {/* <span>Lutero</span> */}
           </a>
           
           <div className={`nav-links ${isOpen ? 'open' : ''}`}>
