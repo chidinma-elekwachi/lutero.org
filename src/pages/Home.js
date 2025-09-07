@@ -1,75 +1,85 @@
 import React from 'react';
-import './styles.css';
+import './Home.css';
 import googlePlay from '../assets/google-play-store logo.png';
 import appStore from '../assets/app-store-logo.png';
 import handMockup from '../assets/chatscreen-iphonemockup.png';
 import Footer from './Footer';
-
 import { Link } from 'react-router-dom';
+import { FaCrown, FaShieldAlt, FaUsers, FaStar } from 'react-icons/fa';
 
 function Home() {
   return (
-    <div className="container">
-     
+    <div className="home-page">
+      <div className="home-container">
+        <header className="hero-section">
+          <div className="hero-content">
+            <h1>Lutero Chat. Connect Freely.</h1>
+            <p className="hero-subtitle">The secure, private chat app with calling, video, and communities.</p>
+            
+            <div className="store-links">
+              <a href="/"><img src={appStore} alt="App Store" /></a>
+              <a href="/"><img src={googlePlay} alt="Google Play" /></a>
+            </div>
+            
+            <p className="hero-quote">
+              <em>"Experience a secure, and modern messaging platform that puts your privacy first. Connect with friends, family, or your community through instant messaging, crystal-clear audio calls, video calls, and exclusive member groups — all in one powerful app."</em>
+            </p>
+          </div>
+          
+          <div className="mockup-container">
+            <img className="mockup" src={handMockup} alt="App Screenshot" />
+          </div>
+        </header>
 
-      <header className="hero">
-        <h1>Lutero Chat. Connect Freely.</h1>
-        <p>The secure, private chat app with calling, video, and communities.
-        </p>
-        
-        <div className="store-links">
-          <a href="/"><img src={appStore} alt="App Store" /></a>
-          <a href="/"><img src={googlePlay} alt="Google Play" /></a>
-        </div> <br></br>
-        <p><em> "Experience a secure, and modern messaging platform that puts your privacy first. Connect with friends, family, or your community through instant messaging, crystal-clear audio calls, video calls, and exclusive member groups — all in one powerful app."</em></p>
-        <img className="mockup" src={handMockup} alt="App Screenshot" />
+        <section className="core-section">
+          <div className="vision-block">
+            <div className="logo-circle">
+              <img src='/lutero-icon.png' alt="App Logo" />
+            </div>
+            <div className="vision-text">
+              <h2>Our Vision</h2>
+              <p>
+                At Lutero, we're redefining private communication by building a community-powered messaging app that puts security, freedom, and connection at the forefront. Our goal is to give people around the world—especially in underserved regions—the ability to chat, call, and build communities without limitations.
+              </p>
+            </div>
+          </div>
 
-      </header>
+          <div className="features-block">
+            <div className="section-header">
+              <FaShieldAlt className="section-icon" />
+              <h2>Core Features</h2>
+            </div>
+            <ul className="features-list">
+              <li><span className="checkmark">✓</span>Private and secure messaging</li>
+              <li><span className="checkmark">✓</span>End-to-end encryption</li>
+              <li><span className="checkmark">✓</span>Audio & video calls</li>
+              <li><span className="checkmark">✓</span>Read receipts</li>
+              <li><span className="checkmark">✓</span>Privacy-first design</li>
+              <li><span className="checkmark">✓</span>Chat backups</li>
+            </ul>
+          </div>
+        </section>
 
-      <section className="core-features">
-      <div className="vision-block">
-        <div className="logo-circle">
-          <img src='/lutero-icon.png' alt="App Logo" />
-        </div>
-        <div className="vision-text">
-          <h2>Our Vision</h2>
-          <p>
-            At Lutero, we’re redefining private communication by building a community-powered messaging app that puts security, freedom, and connection at the forefront. Our goal is to give people around the world—especially in underserved regions—the ability to chat, call, and build communities without limitations.
-          </p>
-        </div>
+        <section className="premium-section">
+          <div className="section-header">
+            <FaCrown className="section-icon" />
+            <h2>Upgrade to Premium</h2>
+          </div>
+          <p className="premium-subtitle">Get more out of Lutero with our premium subscription:</p>
+          <ul className="premium-features">
+            <li><span className="checkmark">✓</span>Ad-free experience</li>
+            <li><span className="checkmark">✓</span>Create communities (256 members)</li>
+            <li><span className="checkmark">✓</span>Unlimited call duration</li>
+            <li><span className="checkmark">✓</span>Premium badge in profile</li>
+            <li><span className="checkmark">✓</span>Priority customer support</li>
+            <li><span className="checkmark">✓</span>Early access to new features</li>
+          </ul>
+          <Link to="/premium" className="premium-btn">View Premium Details</Link>
+        </section>
       </div>
 
-      <div className="features-list">
-        <h2>Core Features</h2>
-        <ul>
-          <li>✓ Private and secure messaging</li>
-          <li>✓ End-to-end encryption</li>
-          <li>✓ Audio & video calls</li>
-          <li>✓ Read receipts</li>
-          <li>✓ Privacy-first design</li>
-          <li>✓ Chat backups</li>
-        </ul>
-      </div>
-    </section>
-
-      <section className="premium-highlight">
-        <h2>Upgrade to Premium</h2>
-        <p>Get more out of Lutero with our premium subscription:</p>
-        <ul>
-          <li>✓ Ad-free experience</li>
-          <li>✓ Create communities (256 members)</li>
-          <li>✓ Unlimited call duration</li>
-          <li>✓ Premium badge in profile</li>
-          <li>✓ Priority customer support</li>
-          <li>✓ Early access to new features</li>
-        </ul>
-        <Link to="/premium" className="btn">View Premium Details</Link>
-      </section>
-
-          <Footer />
-
+      <Footer />
     </div>
-
   );
 }
 
