@@ -39,7 +39,11 @@ function Home() {
             <div className="vision-text">
               <h2>Our Vision</h2>
               <p>
-                At Lutero, we're redefining private communication by building a community-powered messaging app that puts security, freedom, and connection at the forefront. Our goal is to give people around the world—especially in underserved regions—the ability to chat, call, and build communities without limitations.
+              "At Lutero, we're redefining private communication by building a community-powered messaging app that puts security, freedom, and connection at the forefront."
+              </p>
+
+              <p>
+              "Our goal is to give people around the world—especially in underserved region. the ability to chat, call, and build communities without limitations."
               </p>
             </div>
           </div>

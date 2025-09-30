@@ -83,16 +83,6 @@
   margin-bottom: 40px;
 }
 
-.vision-block {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-}
 
 .vision-block .logo-circle {
   width: 100px;
@@ -109,18 +99,6 @@
 .vision-block .logo-circle img {
   width: 60%;
   height: auto;
-}
-
-.vision-text h2 {
-  font-size: 1.8rem;
-  color: white;
-  margin: 0 0 15px;
-}
-
-.vision-text p {
-  color: rgba(255, 255, 255, 0.9);
-  line-height: 1.6;
-  margin: 0;
 }
 
 .features-block {
@@ -247,7 +225,6 @@ h2 {
   font-weight: 600;
 }
 
-/* Responsive Design */
 @media (min-width: 768px) {
   .hero-section {
     flex-direction: row;
@@ -270,10 +247,6 @@ h2 {
     grid-template-columns: 1fr 1fr;
   }
   
-  .vision-block {
-    text-align: left;
-    align-items: flex-start;
-  }
 }
 
 @media (max-width: 767px) {
