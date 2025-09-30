@@ -21,7 +21,6 @@ function Navbar() {
         <div className="nav-container">
           <a href="/" className="nav-logo">
             <img src='/lutero-icon.png' alt="Lutero Logo" />
-            {/* <span>Lutero</span> */}
           </a>
           
           <div className={`nav-links ${isOpen ? 'open' : ''}`}>
@@ -40,6 +39,13 @@ function Navbar() {
               Premium
             </NavLink>
             <NavLink 
+              to="/contact"
+              onClick={closeMenu}
+              className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+            >
+              Contact Us
+            </NavLink>
+            <NavLink 
               to="/terms"
               onClick={closeMenu}
               className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
@@ -52,13 +58,6 @@ function Navbar() {
               className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
             >
               Privacy
-            </NavLink>
-            <NavLink 
-              to="/contact"
-              onClick={closeMenu}
-              className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
-            >
-              Contact Us
             </NavLink>
             
             <div className="store-badges">

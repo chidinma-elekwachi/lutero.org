@@ -4,7 +4,7 @@ import './styles.css';
 import googlePlay from '../assets/google-play-store logo.png';
 import appStore from '../assets/app-store-logo.png';
 import { FaLinkedin, FaMailBulk, FaTwitter } from 'react-icons/fa';
-
+import './Footer.css'
 
 function Footer() {
   return (

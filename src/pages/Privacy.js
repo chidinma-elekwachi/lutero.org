@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function Privacy() {
   return (
-    <div>
+    <div className='container'>
         <div className="privacy-container">
         <h1 className="main-title">Lutero Privacy Policy</h1>
         <p className="last-updated">Last Updated: 1st February, 2025</p>

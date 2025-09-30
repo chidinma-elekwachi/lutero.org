@@ -69,6 +69,7 @@
   height: 2px;
   background-color: rgb(223, 73, 19);
   border-radius: 2px;
+  text-decoration: none;
 }
 
 .store-badges {
@@ -95,10 +96,10 @@
 }
 
 .bar {
-  width: 25px;
+  width: 36px;
   height: 3px;
   background-color: white;
-  margin: 3px 0;
+  margin: 2px 0;
   transition: 0.3s;
   border-radius: 2px;
 }
@@ -117,7 +118,6 @@
   background-color: rgb(223, 73, 19);
 }
 
-/* Mobile Responsive */
 @media (max-width: 900px) {
   .hamburger {
     display: flex;
@@ -126,16 +126,16 @@
   .nav-links {
     position: fixed;
     top: 71px;
-    left: -100%;
-    width: 100%;
+    right: 100%;
+    width: 80%;
     height: calc(100vh - 71px);
     background-color: rgb(21, 21, 54);
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 40px 20px;
-    gap: 50px;
-    transition: left 0.3s ease;
+    padding: 20px 20px;
+    gap: 20px;
+    transition: right 0.3s ease;
     overflow-y: auto;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
@@ -157,6 +157,11 @@
   
   .store-badges img {
     height: 45px;
+  }
+  .nav-container {
+    display: flex;
+    gap: 280px;
+    justify-content: space-between;
   }
 }
 

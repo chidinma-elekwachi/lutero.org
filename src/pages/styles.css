@@ -7,14 +7,13 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: white;
   color: #0f172a;
 }
 
 .container {
   padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
 }
 
 .navbar {
@@ -22,7 +21,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-links a {
@@ -39,10 +38,7 @@ body {
   height: auto;
   vertical-align: middle;
 }
-.nav-links a:hover{
-  color: rgb(223, 73, 19);
-  text-decoration: underline;
-}
+
 
 .nav-links img:hover {
   transform: scale(1.1);
@@ -134,14 +130,14 @@ body {
     margin-left: 15px;
   }
   
+  
 }
 
 
 .terms-container {
   background-color: rgb(21, 21, 54);
   color: whitesmoke;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 0;
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
@@ -686,6 +682,8 @@ a {
   padding: 20px;
   color: #333;
   line-height: 1.6;
+  background-color: rgba(21, 21, 54, 0.95);
+
 }
 
 .main-title {
@@ -720,9 +718,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
+
 .data-deletion-container {
   font-family: Arial, sans-serif;
   max-width: 800px;
@@ -946,16 +942,10 @@ h2 {
   margin: 0;
   color: rgba(255, 255, 255, 0.9);
 }
-
 a {
   color: rgb(223, 73, 19);
   text-decoration: none;
   font-weight: 500;
-}
-
-a:hover {
-  color: rgb(255, 140, 50);
-  text-decoration: underline;
 }
 
 .dev-content {
@@ -1022,5 +1012,10 @@ a:hover {
   .elexis-logo {
     margin-right: 0;
     margin-bottom: 15px;
+  }
+  .nav-container {
+    display: flex;
+    gap: 180px;
+    justify-content: space-between;
   }
 }

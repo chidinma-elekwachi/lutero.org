@@ -34,7 +34,7 @@ function Terms() {
             <li>All activities under your account</li>
             <li>Ensuring your use complies with all applicable laws</li>
           </ul>
-          <p><strong>Access to Information:</strong> To modify or delete your personal information, please adjust your account settings.</p>
+          <p>Access to Information: To modify or delete your personal information, please adjust your account settings.</p>
         </section>
 
         {/* 3. Acceptable Use */}
@@ -47,7 +47,7 @@ function Terms() {
             <li>Spam other users or distribute malware</li>
             <li>Reverse-engineer or modify the App's code</li>
           </ul>
-          <p><strong>Your obligation:</strong> Use Lutero services only for lawful purposes. Any conduct that interferes with other users’ ability to enjoy the service will not be tolerated.</p>
+          <p>Your obligation: Use Lutero services only for lawful purposes. Any conduct that interferes with other users’ ability to enjoy the service will not be tolerated.</p>
           <p>You agree not to use the services for purposes that:</p>
           <ul>
             <li>Breach any applicable laws</li>
