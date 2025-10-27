@@ -2,11 +2,10 @@ import React from 'react';
 import './styles.css';
 import Footer from './Footer';
 
-
 function Privacy() {
   return (
     <div className='container'>
-        <div className="privacy-container">
+      <div className="privacy-container">
         <h1 className="main-title">Lutero Privacy Policy</h1>
         <p className="last-updated">Last Updated: 1st February, 2025</p>
 
@@ -80,11 +79,26 @@ function Privacy() {
             We will notify users of significant changes through the App.
           </p>
         </section>
-      </div>
 
+        <section className="policy-section">
+          <h2>8. Safety, Reporting & Moderation</h2>
+          <p>
+            We take user safety seriously. If you encounter abusive, harmful, or inappropriate content, you may report or block users directly through the App.
+          </p>
+          <ul>
+            <li>Reported content is reviewed within 24 hours</li>
+            <li>We may remove harmful content to protect users</li>
+            <li>Violations may result in account suspension or termination</li>
+          </ul>
+          <p>
+            We are committed to keeping Lutero safe and free from objectionable content.
+          </p>
+        </section>
+
+      </div>
       <Footer />
     </div>
   )
 }
 
-export default Privacy
+export default Privacy;
