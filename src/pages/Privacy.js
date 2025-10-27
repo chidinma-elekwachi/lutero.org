@@ -81,19 +81,44 @@ function Privacy() {
         </section>
 
         <section className="policy-section">
-          <h2>8. Safety, Reporting & Moderation</h2>
+          <h2>8. Terms of Use & User Conduct</h2>
+          <p>To ensure a safe and respectful platform, all users must follow these rules:</p>
+
+          <p><strong> Allowed:</strong></p>
+          <ul>
+            <li>Friendly and respectful conversation</li>
+            <li>Helpful interactions and positive engagement</li>
+          </ul>
+
+          <p><strong>Not Allowed:</strong></p>
+          <ul>
+            <li>Bullying, harassment, hate speech, or discrimination</li>
+            <li>Sexual content, nudity, sexually suggestive messages</li>
+            <li>Violence, threats, or encouragement of harm</li>
+            <li>Illegal activities including fraud or drug-related content</li>
+            <li>Spam, fake profiles, or misleading information</li>
+          </ul>
+
+          <p>If any rule is violated, Lutero may remove content or restrict access to the platform.</p>
+        </section>
+
+        <section className="policy-section">
+          <h2>9. Safety, Reporting & Moderation</h2>
           <p>
-            We take user safety seriously. If you encounter abusive, harmful, or inappropriate content, you may report or block users directly through the App.
+            We take user safety seriously. If you encounter abusive or harmful behavior, you can report or block the user directly from their profile or messages.
           </p>
+
           <ul>
             <li>Reported content is reviewed within 24 hours</li>
-            <li>We may remove harmful content to protect users</li>
-            <li>Violations may result in account suspension or termination</li>
+            <li>We may remove harmful or illegal material to protect the community</li>
+            <li>Serious or repeated violations may lead to account suspension or permanent removal</li>
           </ul>
+
           <p>
-            We are committed to keeping Lutero safe and free from objectionable content.
+            By using Lutero, you agree to help keep the community safe and respectful for everyone.
           </p>
         </section>
+
 
       </div>
       <Footer />
