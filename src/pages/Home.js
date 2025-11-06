@@ -64,7 +64,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="premium-section">
+        {/* <section className="premium-section">
           <div className="section-header">
             <FaCrown className="section-icon" />
             <h2>Upgrade to Premium</h2>
@@ -79,7 +79,7 @@ function Home() {
             <li><span className="checkmark">✓</span>Early access to new features</li>
           </ul>
           <Link to="/premium" className="premium-btn">View Premium Details</Link>
-        </section>
+        </section> */}
       </div>
 
       <Footer />

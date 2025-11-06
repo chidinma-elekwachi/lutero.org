@@ -4,7 +4,7 @@ import './styles.css';
 import googlePlay from '../assets/google-play-store logo.png';
 import appStore from '../assets/app-store-logo.png';
 import { FaLinkedin, FaMailBulk, FaTwitter } from 'react-icons/fa';
-import './Footer.css'
+import './notfound.js'
 
 function Footer() {
   return (
@@ -20,11 +20,11 @@ function Footer() {
         >
           Home
         </Link>
-        <Link 
+        {/* <Link 
           to="/premium"
         >
           Premium
-        </Link>
+        </Link> */}
         <Link 
           to="/terms"
         >

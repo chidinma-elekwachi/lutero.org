@@ -31,13 +31,13 @@ function Navbar() {
             >
               Home
             </NavLink>
-            <NavLink 
+            {/* <NavLink 
               to="/premium"
               onClick={closeMenu}
               className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
             >
               Premium
-            </NavLink>
+            </NavLink> */}
             <NavLink 
               to="/contact"
               onClick={closeMenu}
