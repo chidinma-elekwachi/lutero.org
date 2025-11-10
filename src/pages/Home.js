@@ -18,7 +18,7 @@ function Home() {
             
             <div className="store-links">
               <a href="/"><img src={appStore} alt="App Store" /></a>
-              <a href="/"><img src={googlePlay} alt="Google Play" /></a>
+              <a href="https://play.google.com/store/apps/details?id=com.elexistech.lutero"><img src={googlePlay} alt="Google Play" /></a>
             </div>
             
             <p className="hero-quote">

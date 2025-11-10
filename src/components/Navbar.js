@@ -62,7 +62,7 @@ function Navbar() {
             
             <div className="store-badges">
               <a href="/" onClick={closeMenu}><img src={appStore} alt="App Store" /></a>
-              <a href="/" onClick={closeMenu}><img src={googlePlay} alt="Google Play" /></a>
+              <a href="https://play.google.com/store/apps/details?id=com.elexistech.lutero" onClick={closeMenu}><img src={googlePlay} alt="Google Play" /></a>
             </div>
           </div>
           
