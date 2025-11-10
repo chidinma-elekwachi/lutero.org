@@ -4,8 +4,7 @@ import googlePlay from '../assets/google-play-store logo.png';
 import appStore from '../assets/app-store-logo.png';
 import handMockup from '../assets/chatscreen-iphonemockup.png';
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
-import { FaCrown, FaShieldAlt, FaUsers, FaStar } from 'react-icons/fa';
+import {FaShieldAlt } from 'react-icons/fa';
 
 function Home() {
   return (
