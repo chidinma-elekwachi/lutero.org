@@ -7,7 +7,6 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Privacy from "./pages/Privacy";
 import DataDeletion from "./pages/DataDeletion";
-import AppAds from "./app-ads.txt";
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/data-deletion" element={<DataDeletion />} />
         <Route path="/*" element={<Home />} />
-        <Route path="/app-ads.txt" element={<AppAds />} />
       </Routes>
     </Router>
   );
