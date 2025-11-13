@@ -65,7 +65,7 @@ function Footer() {
         <a href="https://play.google.com/store/apps/details?id=com.elexistech.lutero" target="_blank" rel="noreferrer">
           <img src={googlePlay} alt="Google Play" className="store-badge" />
         </a>
-        <a href="/" target="_blank" rel="noreferrer">
+        <a href="https://apps.apple.com/us/app/lutero/id6749874059" target="_blank" rel="noreferrer">
           <img src={appStore} alt="App Store" className="store-badge" />
         </a>
       </div>
