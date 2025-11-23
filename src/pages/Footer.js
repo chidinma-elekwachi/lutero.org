@@ -26,6 +26,11 @@ function Footer() {
           Premium
         </Link> */}
         <Link 
+          to="/contact"
+        >
+          About Us
+        </Link>
+        <Link 
           to="/terms"
         >
           Terms
@@ -35,11 +40,7 @@ function Footer() {
         >
           Privacy policy
         </Link>
-        <Link 
-          to="/contact"
-        >
-          Contact Us
-        </Link>
+        
     
       </div>
 

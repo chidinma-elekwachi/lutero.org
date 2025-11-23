@@ -43,7 +43,7 @@ function Navbar() {
               onClick={closeMenu}
               className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
             >
-              Contact Us
+              About Us
             </NavLink>
             <NavLink 
               to="/terms"
