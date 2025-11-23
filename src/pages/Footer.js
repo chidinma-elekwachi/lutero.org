@@ -47,7 +47,7 @@ function Footer() {
 
         <a href="mailto:support@lutero.org"><FaMailBulk size={24} /> Contact Support</a>
         
-        <a href="https://x.com/lutero999" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /> X (Twitter)</a>
+        <a href="https://x.com/lutero_org" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /> X (Twitter)</a>
 
         <p className="footer-text">Developer: <a href="mailto:developer@lutero.org">developer@lutero.org</a></p>
         <a
